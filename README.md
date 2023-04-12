@@ -1,27 +1,4 @@
-# IMPORTANT NOTE 1:
-For each lab assignment, **you must include and sign (by writing your name and student id number) the following Pledge of Honor statement at the beginning of your main method source code file. After including this statement, make sure that you do the commit and push operation on GitHub. Otherwise, your lab solution will not be graded.**
-
-```
-/* *********** Pledge of Honor ************************************************ *
-
-I hereby certify that I have completed this lab assignment on my own
-without any help from anyone else. I understand that the only sources of authorized
-information in this lab assignment are (1) the course textbook, (2) the
-materials posted at the course website and (3) any study notes handwritten by myself.
-I have not used, accessed or received any information from any other unauthorized
-source in taking this lab assignment. The effort in the assignment thus belongs
-completely to me.
-READ AND SIGN BY WRITING YOUR NAME SURNAME AND STUDENT ID
-SIGNATURE: <Name Surname, Student id>
-********************************************************************************/
-```
-## IMPORTANT NOTE 2: After you complete the tasks, do not forget to commit your changes and push them to your repository on Github.
-
-## IMPORTANT NOTE 3: This README.md file only contains the instructions for PRELAB. You will also have INLAB questions.
-
-INLAB QUESTIONS WILL BE ANNOUNCED AT COURSE WEBSITE AT THE START OF EACH LAB: [https://sites.google.com/a/ku.edu.tr/comp132/programming-labs](https://sites.google.com/a/ku.edu.tr/comp132/programming-labs)
-
-# Lab-6 Prelab: KuPeers 
+# KuPeers 
 In this programming lab, you are asked to implement a simplified Peer-to-Peer (P2P) Data-sharing application called KuPeers. The main concepts in this lab are Java Collections and related concepts, which you will practice with. You are asked to implement multiple classes and methods and test the correctness of your implementation by running the main method within the Test class. The project includes two packages (kupeers and test), and the test package with Test.java is already given to you in the template project. You need to implement the other parts in the kupeers package. Please note that we may test your codes with other test cases as well.
 
 In P2P systems, there is no central server that holds the Data. Instead, peers (normal users of the software) save the pieces of the Data (Chunks) on their own machines and share them with each other. Data is divided into pieces called ​chunks,​ that a peer is willing to share with other peers. Likewise, a peer searches for the missing chunks that it needs to be able to reconstruct the whole Data.
